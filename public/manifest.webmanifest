@@ -1,0 +1,9 @@
+{
+  "name": "PWA Egresados UMSS",
+  "short_name": "Egresados UMSS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F1F4F2",
+  "theme_color": "#0E6E62",
+  "icons": []
+}

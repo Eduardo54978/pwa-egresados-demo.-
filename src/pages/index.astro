@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProfileCard from '../components/ProfileCard.tsx';
+import '../styles/global.css';
+---
+<Layout>
+  <main class="max-w-3xl mx-auto px-6 py-16">
+    <p class="font-mono text-xs text-sage mb-2">PWA EGRESADOS UMSS — DEMO</p>
+    <h1 class="font-display text-4xl mb-4">Conectamos a cada egresado con su próximo paso.</h1>
+    <p class="text-sage mb-10 max-w-md">
+      Prototipo mínimo del stack: frontend Astro + React en Vercel, API serverless
+      calculando afinidad de habilidades, datos pensados para Firestore.
+    </p>
+    <ProfileCard client:load />
+  </main>
+</Layout>
